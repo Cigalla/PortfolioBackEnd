@@ -1,0 +1,28 @@
+{
+   
+  
+  "scripts": {
+    "start": "http-server -p 8436"
+  },
+
+
+  "dependencies": {
+   
+  
+     
+  
+  "http": "^0.0.1-security",
+   
+  
+     
+  
+  "http-server": "^14.1.1",
+   
+  
+     
+  
+  "server": "^1.0.38"
+   
+  
+  }
+}

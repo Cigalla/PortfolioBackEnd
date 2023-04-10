@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One'); 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Adamina');
+
+body { background: #A9D2E8;
+  background: -moz-linear-gradient(top, #A9D2E8 0%, #B6D3E0 50%, #D4BDDD 100%);
+  background: -webkit-linear-gradient(top, #A9D2E8 0%, #B6D3E0 50%, #D4BDDD 100%);
+  background: linear-gradient(to bottom, #A9D2E8 0%, #B6D3E0 50%, #D4BDDD 100%);}
+  
+  #barrainicial {
+    box-shadow: 2px 2px 7px 1px rgba(28,110,164,0.66);}
+
+    /* barra inicial */
+
+    table.steelBlueCols {
+        font-family: Georgia, 'Times New Roman', Times;
+        border: 1px solid #D3D3D3;
+        font-weight: 50;
+        background-color: #e0b0d8;
+        width: 100%;
+        height: 30px;
+        border-collapse: collapse;
+      }
+      table.steelBlueCols td, table.steelBlueCols th {
+        border-right: 3px solid #ffffff;
+        padding: 10px 6px;
+      }
+      table.steelBlueCols tbody td {
+        font-size: 12px;
+        font-weight: bold;
+        color: #FFFFFF;
+      }
+      table.steelBlueCols td:nth-child(even) {
+        background: #e0bdda;
+      }
+      table.steelBlueCols tfoot td {
+        font-size: 13px;
+      }
+      table.steelBlueCols tfoot .links {
+        text-align: right;
+      }
+      table.steelBlueCols tfoot .links a{
+        display: inline-block;
+        background: #FFFFFF;
+        color: #398AA4;
+        padding: 2px 8px;
+        border-radius: 30px;
+      }
+     
+      /* cuadros con info */
+
+      div.boxes {-webkit-border-radius: 37px;
+        -moz-border-radius: 37px;
+        border-radius: 37px; border: 3px solid #CCFFFF;
+      padding: 20px;
+       margin-top: 40px;
+       margin-bottom: 70px;
+      }
+     
+
+        /* icono con mi foto */
+
+        img.iconpersona {-webkit-border-radius: 100px;
+          border-radius: 100px; margin-top: -70px;
+          opacity:1;
+          position: relative
+          
+        }
+
+          /*texto acerca de*/
+          
+          div.acercade { 
+            font-family: "Space Mono", monospace;
+            text-align: left;
+            font-size: 17px;
+            letter-spacing: 6px;
+            word-spacing: 4px;
+            color: #004466;
+            margin-top: -10px;
+            margin-bottom: 30px
+          }
+
+
+           /* circle percetages */ 
+           @import url("https://fonts.googleapis.com/css?family=Lato:300");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+/*** <--- CIRCLE STYLES ---> ***/
+.wrap-circles {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+}
+.circle.per-25 {
+  background-image: conic-gradient(#B5838D 25%, #FFCDB2 0);
+}
+.circle.per-50 {
+  background-image: conic-gradient(#B5838D 50%, #FFCDB2 0);
+}
+.circle.per-75 {
+  background-image: conic-gradient(#B5838D 75%, #FFCDB2 0);
+}
+.circle.per-100 {
+  background-image: conic-gradient(#B5838D 100%, #FFCDB2 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  margin-right: 50 px;
+  color: rgba(255, 255, 255, 0.75); }
+          
+           
+/*NOMBRE*/
+h1 {font-family: "Lucida Console", Monaco, monospace;
+  font-size: 35px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: rgba(28,110,164,0.66);
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+margin-left: 10px;}
+
+/*PROGRESO CONOCIMIENTO*/
+.bar-holder {
+  width: 60%;
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: auto;
+  box-align:left;
+
+}
+
+.bar-4 {
+  width: 80%;
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-color:#CCFFFF;
+  text-align: center;
+  font-weight: 400;
+  background-image: linear-gradient(100deg, #B5838D, #FFCDB2);
+  box-align: left;
+}
+
+  .bar-1 {
+
+    width: 20%;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-color:#CCFFFF;
+    text-align: center;
+    font-weight: 400;
+    background-image: linear-gradient(100deg, #B5838D, #FFCDB2);
+    box-align: left}
+
+    .bar-5 {
+      
+      width: 100%;
+      color: white;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      border-color:#CCFFFF;
+      text-align: center;
+      font-weight: 400;
+      background-image: linear-gradient(100deg, #B5838D, #FFCDB2);
+      box-align: left}
+
+      table.idiomatable {display: inline-block;
+      align-content: center;
+      text-align: center;
+      margin-left:150px;
+      margin-right: 150px
+    }
+      /*stilos de fuentes*/
+
+      /* latin-ext */
+      
+      
+      
+      h2 { font-family: Cinzel, serif;
+        text-decoration: overline;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            text-transform: none;
+            text-align: left;
+            font-size: 32px;
+            letter-spacing: 6px;
+            word-spacing: -2px;
+            color: rgb(255, 255, 255);
+            text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+          } 
+
+      
+            
+      h3 {
+         
+            font-family: "Nixie One", cursive;
+            margin-bottom: 1px;
+            font-size: 21px;
+            word-spacing: 8px;
+            color: rgb(0, 0, 0);
+            text-shadow: rgb(0, 0, 0) 1px 1px 1px;;
+        }
+      
+      h4 {
+        font-family: Quicksand, sans-serif;
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: 6px;
+        word-spacing: 4px;
+        color: rgb(34, 37, 39);
+        margin-bottom: -1px;
+    }
+
+      h6 {
+      font-family: Quicksand, sans-serif;
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 6px;
+      word-spacing: 4px;
+      color: rgb(34, 37, 39);
+      margin-top:  10px;
+      margin-bottom: 10px;
+
+      vertical-align: middle;
+  }
+      
+      p { font-family: Adamina, serif;
+        text-align: left;
+        font-size: 14px;
+        color: rgb(92, 92, 92);
+        font-weight: 50;
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+
+     a { color: #ffffff; text-decoration: underline; }
+
+
+      a:hover { color: #ffffff }
+
+      /* divider */
+
+      .h-divider {
+        margin: auto;
+        margin-top: 50px;
+        width: 80%;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      
+      .h-divider .shadow {
+        overflow: hidden;
+        height: 6px;
+      }
+      
+      .h-divider .shadow:after {
+        content: '';
+        display: block;
+        margin: -25px auto 0;
+        width: 100%;
+        height: 25px;
+        border-radius: 125px/12px;
+        box-shadow: 0 0 8px black;
+      }
+      
+    
+
+
+
+
+        
